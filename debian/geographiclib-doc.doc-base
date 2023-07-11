@@ -1,0 +1,11 @@
+Document: geographiclib
+Title: Debian geographiclib Manual
+Author: Charles Karney
+Abstract: This manual describes what geographiclib is
+ and how it can be used to solve some basic geomapping
+ problems.
+Section: Science/Geoscience
+
+Format: HTML
+Index: /usr/share/doc/geographiclib/html/index.html
+Files: /usr/share/doc/geographiclib/html/*.html

@@ -1,0 +1,729 @@
+# SymbolsHelper-Confirmed: 2.2 amd64 arm64 armel armhf hppa hurd-i386 i386 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32
+libGeographicLib.so.24 #PACKAGE# #MINVER#
+* Build-Depends-Package: libgeographiclib-dev
+ _ZGVZN13GeographicLib4Math4tandIdEET_S2_E8overflow@Base 1.42
+ (arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZGVZN13GeographicLib4Math4tandIeEET_S2_E8overflow@Base 1.51
+ _ZGVZN13GeographicLib4Math4tandIfEET_S2_E8overflow@Base 1.50.1
+ (arch=alpha powerpc ppc64 ppc64el s390x)_ZGVZN13GeographicLib4Math4tandIgEET_S2_E8overflow@Base 1.50.1
+ (arch=powerpc ppc64 ppc64el)_ZGVZN13GeographicLib4Math4taufIgEET_S2_S2_E3tol@Base 1.51
+ _ZGVZN13GeographicLib4Math6degreeIdEET_vE6degree@Base 1.40
+ (arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZGVZN13GeographicLib4Math6degreeIeEET_vE6degree@Base 1.51
+ _ZGVZN13GeographicLib4Math6degreeIfEET_vE6degree@Base 1.50.1
+ (arch=alpha powerpc ppc64 ppc64el s390x)_ZGVZN13GeographicLib4Math6degreeIgEET_vE6degree@Base 1.50.1
+ _ZN13GeographicLib10Geocentric5WGS84Ev@Base 1.40
+ _ZN13GeographicLib10Geocentric8RotationEddddPd@Base 1.40
+ _ZN13GeographicLib10GeocentricC1Edd@Base 1.40
+ _ZN13GeographicLib10GeocentricC2Edd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib11AccumulatorIdE3AddEd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib11AccumulatorIdE7fastsumEddRd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib11AccumulatorIdE9remainderEd@Base 1.50
+ (optional=templinst)_ZN13GeographicLib11AccumulatorIdEC1Ed@Base 1.40
+ (optional=templinst)_ZN13GeographicLib11AccumulatorIdEC2Ed@Base 1.40
+ (optional=templinst)_ZN13GeographicLib11AccumulatorIdEaSEd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib11AccumulatorIdEmIEd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib11AccumulatorIdEmLEd@Base 1.44
+ (optional=templinst)_ZN13GeographicLib11AccumulatorIdEmLEi@Base 1.40
+ (optional=templinst)_ZN13GeographicLib11AccumulatorIdEpLEd@Base 1.40
+ _ZN13GeographicLib11AuxLatitude5WGS84Ev@Base 2.2
+ _ZN13GeographicLib11AuxLatitude8ClenshawEbddPKdi@Base 2.2
+ _ZN13GeographicLib11AuxLatitudeC1ERKSt4pairIddE@Base 2.2
+ _ZN13GeographicLib11AuxLatitudeC1Edd@Base 2.2
+ _ZN13GeographicLib11AuxLatitudeC2ERKSt4pairIddE@Base 2.2
+ _ZN13GeographicLib11AuxLatitudeC2Edd@Base 2.2
+ _ZN13GeographicLib12DAuxLatitude2DhEdd@Base 2.2
+ _ZN13GeographicLib12DAuxLatitude3DsnEdd@Base 2.2
+ _ZN13GeographicLib12DAuxLatitude5DatanEdd@Base 2.2
+ _ZN13GeographicLib12DAuxLatitude6DasinhEdd@Base 2.2
+ _ZN13GeographicLib12DAuxLatitude9DClenshawEbdddddPKdi@Base 2.2
+ _ZN13GeographicLib12GeodesicLine11SetDistanceEd@Base 1.46
+ _ZN13GeographicLib12GeodesicLine14GenSetDistanceEbd@Base 1.46
+ _ZN13GeographicLib12GeodesicLine6SetArcEd@Base 1.46
+ _ZN13GeographicLib12GeodesicLine8LineInitERKNS_8GeodesicEdddddj@Base 1.46
+ _ZN13GeographicLib12GeodesicLineC1ERKNS_8GeodesicEdddddjbd@Base 1.46
+ _ZN13GeographicLib12GeodesicLineC1ERKNS_8GeodesicEdddj@Base 1.40
+ _ZN13GeographicLib12GeodesicLineC2ERKNS_8GeodesicEdddddjbd@Base 1.46
+ _ZN13GeographicLib12GeodesicLineC2ERKNS_8GeodesicEdddj@Base 1.40
+ _ZN13GeographicLib12GravityModel12ReadMetadataERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.43
+ _ZN13GeographicLib12GravityModel18DefaultGravityNameB5cxx11Ev@Base 1.43
+ _ZN13GeographicLib12GravityModel18DefaultGravityPathB5cxx11Ev@Base 1.43
+ _ZN13GeographicLib12GravityModelC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_ii@Base 1.50
+ _ZN13GeographicLib12GravityModelC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_ii@Base 1.50
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_13GeodesicExactEE13transitdirectEdd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_13GeodesicExactEE5ClearEv@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_13GeodesicExactEE7AddEdgeEdd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_13GeodesicExactEE7transitEdd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_13GeodesicExactEE8AddPointEdd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_13GeodesicExactEEC1ERKS1_b@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_13GeodesicExactEEC2ERKS1_b@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_5RhumbEE13transitdirectEdd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_5RhumbEE5ClearEv@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_5RhumbEE7AddEdgeEdd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_5RhumbEE7transitEdd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_5RhumbEE8AddPointEdd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_5RhumbEEC1ERKS1_b@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_5RhumbEEC2ERKS1_b@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_8GeodesicEE13transitdirectEdd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_8GeodesicEE5ClearEv@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_8GeodesicEE7AddEdgeEdd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_8GeodesicEE7transitEdd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_8GeodesicEE8AddPointEdd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_8GeodesicEEC1ERKS1_b@Base 1.40
+ (optional=templinst)_ZN13GeographicLib12PolygonAreaTINS_8GeodesicEEC2ERKS1_b@Base 1.40
+ _ZN13GeographicLib13GeodesicExact11I4Integrand1tEd@Base 2.1
+ _ZN13GeographicLib13GeodesicExact11I4Integrand2tdEd@Base 2.1
+ _ZN13GeographicLib13GeodesicExact11I4Integrand9asinhsqrtEd@Base 2.1
+ _ZN13GeographicLib13GeodesicExact11I4IntegrandC1Edd@Base 2.1
+ _ZN13GeographicLib13GeodesicExact11I4IntegrandC2Edd@Base 2.1
+ _ZN13GeographicLib13GeodesicExact5WGS84Ev@Base 1.40
+ _ZN13GeographicLib13GeodesicExact7AstroidEdd@Base 1.40
+ _ZN13GeographicLib13GeodesicExactC1Edd@Base 1.40
+ _ZN13GeographicLib13GeodesicExactC2Edd@Base 1.40
+ _ZN13GeographicLib13GeodesicExactD1Ev@Base 2.1
+ _ZN13GeographicLib13GeodesicExactD2Ev@Base 2.1
+ _ZN13GeographicLib13GeographicErrD0Ev@Base 1.40
+ _ZN13GeographicLib13GeographicErrD1Ev@Base 1.40
+ _ZN13GeographicLib13GeographicErrD2Ev@Base 1.40
+ _ZN13GeographicLib13GravityCircleC1ENS0_4maskEdddddddddddddddRKNS_14CircularEngineES4_S4_@Base 1.51
+ _ZN13GeographicLib13GravityCircleC2ENS0_4maskEdddddddddddddddRKNS_14CircularEngineES4_S4_@Base 1.51
+ _ZN13GeographicLib13MagneticModel12ReadMetadataERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.43
+ _ZN13GeographicLib13MagneticModel15FieldComponentsEddddddRdS1_S1_S1_S1_S1_S1_S1_@Base 1.40
+ _ZN13GeographicLib13MagneticModel19DefaultMagneticNameB5cxx11Ev@Base 1.43
+ _ZN13GeographicLib13MagneticModel19DefaultMagneticPathB5cxx11Ev@Base 1.43
+ _ZN13GeographicLib13MagneticModelC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_RKNS_10GeocentricEii@Base 1.50
+ _ZN13GeographicLib13MagneticModelC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_RKNS_10GeocentricEii@Base 1.50
+ _ZN13GeographicLib13NormalGravity10InitializeEddddb@Base 1.47
+ _ZN13GeographicLib13NormalGravity11atan5seriesEd@Base 1.47
+ _ZN13GeographicLib13NormalGravity11atan7seriesEd@Base 1.47
+ _ZN13GeographicLib13NormalGravity14FlatteningToJ2Edddd@Base 1.40
+ _ZN13GeographicLib13NormalGravity14J2ToFlatteningEdddd@Base 1.40
+ _ZN13GeographicLib13NormalGravity2HfEdb@Base 1.48
+ _ZN13GeographicLib13NormalGravity2QfEdb@Base 1.47
+ _ZN13GeographicLib13NormalGravity4QH3fEdb@Base 1.48
+ _ZN13GeographicLib13NormalGravity5GRS80Ev@Base 1.40
+ _ZN13GeographicLib13NormalGravity5WGS84Ev@Base 1.40
+ _ZN13GeographicLib13NormalGravityC1Eddddb@Base 1.47
+ _ZN13GeographicLib13NormalGravityC2Eddddb@Base 1.47
+ _ZN13GeographicLib14CassiniSoldner5ResetEdd@Base 1.40
+ _ZN13GeographicLib14CassiniSoldnerC1ERKNS_8GeodesicE@Base 1.40
+ _ZN13GeographicLib14CassiniSoldnerC1EddRKNS_8GeodesicE@Base 1.40
+ _ZN13GeographicLib14CassiniSoldnerC2ERKNS_8GeodesicE@Base 1.40
+ _ZN13GeographicLib14CassiniSoldnerC2EddRKNS_8GeodesicE@Base 1.40
+ (arch=alpha amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-i386 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32)_ZN13GeographicLib14CircularEngineC1ERKS0_@Base 1.51
+ (arch=alpha amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-i386 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32)_ZN13GeographicLib14CircularEngineC1Eibjdddd@Base 1.51
+ (arch=alpha amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-i386 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32)_ZN13GeographicLib14CircularEngineC2ERKS0_@Base 1.51
+ (arch=alpha amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-i386 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32)_ZN13GeographicLib14CircularEngineC2Eibjdddd@Base 1.51
+ _ZN13GeographicLib14CircularEngineD1Ev@Base 1.40
+ _ZN13GeographicLib14CircularEngineD2Ev@Base 1.40
+ _ZN13GeographicLib14LocalCartesian5ResetEddd@Base 1.40
+ _ZN13GeographicLib15AlbersEqualArea20CylindricalEqualAreaEv@Base 1.40
+ _ZN13GeographicLib15AlbersEqualArea23AzimuthalEqualAreaNorthEv@Base 1.40
+ _ZN13GeographicLib15AlbersEqualArea23AzimuthalEqualAreaSouthEv@Base 1.40
+ _ZN13GeographicLib15AlbersEqualArea4InitEddddd@Base 1.40
+ _ZN13GeographicLib15AlbersEqualArea8SetScaleEdd@Base 1.40
+ _ZN13GeographicLib15AlbersEqualArea8atanhxm1Ed@Base 1.40
+ _ZN13GeographicLib15AlbersEqualAreaC1Edddd@Base 1.40
+ _ZN13GeographicLib15AlbersEqualAreaC1Eddddd@Base 1.40
+ _ZN13GeographicLib15AlbersEqualAreaC1Eddddddd@Base 1.40
+ _ZN13GeographicLib15AlbersEqualAreaC2Edddd@Base 1.40
+ _ZN13GeographicLib15AlbersEqualAreaC2Eddddd@Base 1.40
+ _ZN13GeographicLib15AlbersEqualAreaC2Eddddddd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine5ValueILb0ELNS0_13normalizationE0ELi1EEEdPKNS0_5coeffEPKdddddRdS8_S8_@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine5ValueILb0ELNS0_13normalizationE0ELi2EEEdPKNS0_5coeffEPKdddddRdS8_S8_@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine5ValueILb0ELNS0_13normalizationE0ELi3EEEdPKNS0_5coeffEPKdddddRdS8_S8_@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine5ValueILb0ELNS0_13normalizationE1ELi1EEEdPKNS0_5coeffEPKdddddRdS8_S8_@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine5ValueILb0ELNS0_13normalizationE1ELi2EEEdPKNS0_5coeffEPKdddddRdS8_S8_@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine5ValueILb0ELNS0_13normalizationE1ELi3EEEdPKNS0_5coeffEPKdddddRdS8_S8_@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine5ValueILb1ELNS0_13normalizationE0ELi1EEEdPKNS0_5coeffEPKdddddRdS8_S8_@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine5ValueILb1ELNS0_13normalizationE0ELi2EEEdPKNS0_5coeffEPKdddddRdS8_S8_@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine5ValueILb1ELNS0_13normalizationE0ELi3EEEdPKNS0_5coeffEPKdddddRdS8_S8_@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine5ValueILb1ELNS0_13normalizationE1ELi1EEEdPKNS0_5coeffEPKdddddRdS8_S8_@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine5ValueILb1ELNS0_13normalizationE1ELi2EEEdPKNS0_5coeffEPKdddddRdS8_S8_@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine5ValueILb1ELNS0_13normalizationE1ELi3EEEdPKNS0_5coeffEPKdddddRdS8_S8_@Base 1.40
+ _ZN13GeographicLib15SphericalEngine5coeff10readcoeffsERSiRiS3_RSt6vectorIdSaIdEES7_b@Base 1.50
+ (arch=alpha amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32)_ZN13GeographicLib15SphericalEngine5coeffC1ERKSt6vectorIdSaIdEES6_iii@Base 1.51
+ (arch=alpha amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32)_ZN13GeographicLib15SphericalEngine5coeffC2ERKSt6vectorIdSaIdEES6_iii@Base 1.51
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine6CircleILb0ELNS0_13normalizationE0ELi1EEENS_14CircularEngineEPKNS0_5coeffEPKdddd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine6CircleILb0ELNS0_13normalizationE0ELi2EEENS_14CircularEngineEPKNS0_5coeffEPKdddd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine6CircleILb0ELNS0_13normalizationE0ELi3EEENS_14CircularEngineEPKNS0_5coeffEPKdddd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine6CircleILb0ELNS0_13normalizationE1ELi1EEENS_14CircularEngineEPKNS0_5coeffEPKdddd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine6CircleILb0ELNS0_13normalizationE1ELi2EEENS_14CircularEngineEPKNS0_5coeffEPKdddd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine6CircleILb0ELNS0_13normalizationE1ELi3EEENS_14CircularEngineEPKNS0_5coeffEPKdddd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine6CircleILb1ELNS0_13normalizationE0ELi1EEENS_14CircularEngineEPKNS0_5coeffEPKdddd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine6CircleILb1ELNS0_13normalizationE0ELi2EEENS_14CircularEngineEPKNS0_5coeffEPKdddd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine6CircleILb1ELNS0_13normalizationE0ELi3EEENS_14CircularEngineEPKNS0_5coeffEPKdddd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine6CircleILb1ELNS0_13normalizationE1ELi1EEENS_14CircularEngineEPKNS0_5coeffEPKdddd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine6CircleILb1ELNS0_13normalizationE1ELi2EEENS_14CircularEngineEPKNS0_5coeffEPKdddd@Base 1.40
+ (optional=templinst)_ZN13GeographicLib15SphericalEngine6CircleILb1ELNS0_13normalizationE1ELi3EEENS_14CircularEngineEPKNS0_5coeffEPKdddd@Base 1.40
+ _ZN13GeographicLib15SphericalEngine9RootTableEi@Base 1.40
+ _ZN13GeographicLib15SphericalEngine9sqrttableEv@Base 1.49
+ _ZN13GeographicLib16EllipticFunction2RCEdd@Base 1.40
+ _ZN13GeographicLib16EllipticFunction2RDEddd@Base 1.40
+ _ZN13GeographicLib16EllipticFunction2RFEdd@Base 1.40
+ _ZN13GeographicLib16EllipticFunction2RFEddd@Base 1.40
+ _ZN13GeographicLib16EllipticFunction2RGEdd@Base 1.40
+ _ZN13GeographicLib16EllipticFunction2RGEddd@Base 1.40
+ _ZN13GeographicLib16EllipticFunction2RJEdddd@Base 1.40
+ _ZN13GeographicLib16EllipticFunction5ResetEdddd@Base 1.40
+ _ZN13GeographicLib17GeodesicLineExact11SetDistanceEd@Base 1.46
+ _ZN13GeographicLib17GeodesicLineExact14GenSetDistanceEbd@Base 1.46
+ _ZN13GeographicLib17GeodesicLineExact6SetArcEd@Base 1.46
+ _ZN13GeographicLib17GeodesicLineExact8LineInitERKNS_13GeodesicExactEdddddj@Base 1.46
+ _ZN13GeographicLib17GeodesicLineExactC1ERKNS_13GeodesicExactEdddddjbd@Base 1.46
+ _ZN13GeographicLib17GeodesicLineExactC1ERKNS_13GeodesicExactEdddj@Base 1.40
+ _ZN13GeographicLib17GeodesicLineExactC2ERKNS_13GeodesicExactEdddddjbd@Base 1.46
+ _ZN13GeographicLib17GeodesicLineExactC2ERKNS_13GeodesicExactEdddj@Base 1.40
+ _ZN13GeographicLib18PolarStereographic3UPSEv@Base 1.40
+ _ZN13GeographicLib18PolarStereographic8SetScaleEdd@Base 1.40
+ _ZN13GeographicLib18PolarStereographicC1Eddd@Base 1.40
+ _ZN13GeographicLib18PolarStereographicC2Eddd@Base 1.40
+ (arch=alpha amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32)_ZN13GeographicLib18SphericalHarmonic1C1ERKSt6vectorIdSaIdEES5_iiiS5_S5_iiidj@Base 1.51
+ (arch=alpha amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32)_ZN13GeographicLib18SphericalHarmonic1C2ERKSt6vectorIdSaIdEES5_iiiS5_S5_iiidj@Base 1.51
+ _ZN13GeographicLib18TransverseMercator3UTMEv@Base 1.40
+ _ZN13GeographicLib18TransverseMercatorC1Eddd@Base 1.40
+ _ZN13GeographicLib18TransverseMercatorC2Eddd@Base 1.40
+ _ZN13GeographicLib20AzimuthalEquidistantC1ERKNS_8GeodesicE@Base 1.40
+ _ZN13GeographicLib20AzimuthalEquidistantC2ERKNS_8GeodesicE@Base 1.40
+ _ZN13GeographicLib21LambertConformalConic4InitEddddd@Base 1.40
+ _ZN13GeographicLib21LambertConformalConic8MercatorEv@Base 1.40
+ _ZN13GeographicLib21LambertConformalConic8SetScaleEdd@Base 1.40
+ _ZN13GeographicLib21LambertConformalConicC1Edddd@Base 1.40
+ _ZN13GeographicLib21LambertConformalConicC1Eddddd@Base 1.40
+ _ZN13GeographicLib21LambertConformalConicC1Eddddddd@Base 1.40
+ _ZN13GeographicLib21LambertConformalConicC2Edddd@Base 1.40
+ _ZN13GeographicLib21LambertConformalConicC2Eddddd@Base 1.40
+ _ZN13GeographicLib21LambertConformalConicC2Eddddddd@Base 1.40
+ _ZN13GeographicLib23TransverseMercatorExact3UTMEv@Base 1.40
+ _ZN13GeographicLib23TransverseMercatorExactC1Edddb@Base 1.40
+ _ZN13GeographicLib23TransverseMercatorExactC2Edddb@Base 1.40
+ _ZN13GeographicLib3DMS11DecodeAngleERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.43
+ _ZN13GeographicLib3DMS11components_E@Base 1.49
+ _ZN13GeographicLib3DMS12DecodeLatLonERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_RdS9_b@Base 1.43
+ _ZN13GeographicLib3DMS12hemispheres_E@Base 1.49
+ _ZN13GeographicLib3DMS13DecodeAzimuthERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.43
+ _ZN13GeographicLib3DMS14InternalDecodeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERNS0_4flagE@Base 1.43
+ _ZN13GeographicLib3DMS14dmsindicators_E@Base 1.49
+ _ZN13GeographicLib3DMS6DecodeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERNS0_4flagE@Base 1.43
+ _ZN13GeographicLib3DMS6EncodeB5cxx11EdNS0_9componentEjNS0_4flagEc@Base 1.43
+ _ZN13GeographicLib3DMS6signs_E@Base 1.49
+ _ZN13GeographicLib3DMS7digits_E@Base 1.49
+ _ZN13GeographicLib3DMS7replaceERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS6_c@Base 2.0
+ _ZN13GeographicLib3DST4evalEddPKdi@Base 2.1
+ _ZN13GeographicLib3DST5resetEi@Base 2.1
+ _ZN13GeographicLib3DST8integralEddPKdi@Base 2.1
+ _ZN13GeographicLib3DST8integralEddddPKdi@Base 2.1.2
+ _ZN13GeographicLib3DSTC1Ei@Base 2.1
+ _ZN13GeographicLib3DSTC2Ei@Base 2.1
+ _ZN13GeographicLib4GARS7ForwardEddiRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.44
+ _ZN13GeographicLib4GARS7ReverseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERdS9_Rib@Base 1.44
+ _ZN13GeographicLib4GARS7digits_E@Base 1.49
+ _ZN13GeographicLib4GARS8letters_E@Base 1.49
+ _ZN13GeographicLib4MGRS11CheckCoordsEbRbRdS2_@Base 1.40
+ _ZN13GeographicLib4MGRS11maxeasting_E@Base 1.40
+ _ZN13GeographicLib4MGRS11mineasting_E@Base 1.40
+ _ZN13GeographicLib4MGRS12hemispheres_E@Base 1.49
+ _ZN13GeographicLib4MGRS12maxnorthing_E@Base 1.40
+ _ZN13GeographicLib4MGRS12minnorthing_E@Base 1.40
+ _ZN13GeographicLib4MGRS5CheckEv@Base 1.43
+ _ZN13GeographicLib4MGRS6DecodeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERS6_S9_S9_S9_@Base 2.1.2
+ _ZN13GeographicLib4MGRS6UTMRowEiii@Base 1.40
+ _ZN13GeographicLib4MGRS6alpha_E@Base 2.1.2
+ _ZN13GeographicLib4MGRS7ForwardEibdddiRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.43
+ _ZN13GeographicLib4MGRS7ForwardEibddiRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.43
+ _ZN13GeographicLib4MGRS7ReverseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERiRbRdSB_S9_b@Base 1.43
+ _ZN13GeographicLib4MGRS7digits_E@Base 1.49
+ _ZN13GeographicLib4MGRS7utmrow_E@Base 1.49
+ _ZN13GeographicLib4MGRS8latband_E@Base 1.49
+ _ZN13GeographicLib4MGRS8upsband_E@Base 1.49
+ _ZN13GeographicLib4MGRS8upscols_E@Base 1.49
+ _ZN13GeographicLib4MGRS8upsrows_E@Base 1.49
+ _ZN13GeographicLib4MGRS8utmcols_E@Base 1.49
+ _ZN13GeographicLib4Math10set_digitsEi@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math12AngNormalizeIdEET_S2_@Base 2.0
+ (optional=templinst|arch=!powerpc !ppc64 !ppc64el !s390x)_ZN13GeographicLib4Math12AngNormalizeIeEET_S2_@Base 2.0
+ (optional=templinst)_ZN13GeographicLib4Math12AngNormalizeIfEET_S2_@Base 2.0
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math12AngNormalizeIgEET_S2_@Base 2.0
+ _ZN13GeographicLib4Math12extra_digitsEv@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math3NaNIdEET_v@Base 1.50
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZN13GeographicLib4Math3NaNIeEET_v@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math3NaNIfEET_v@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math3NaNIgEET_v@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math3NaNIiEET_v@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math3sumIdEET_S2_S2_RS2_@Base 1.50
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZN13GeographicLib4Math3sumIeEET_S2_S2_RS2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math3sumIfEET_S2_S2_RS2_@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math3sumIgEET_S2_S2_RS2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math4cosdIdEET_S2_@Base 1.50
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZN13GeographicLib4Math4cosdIeEET_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math4cosdIfEET_S2_@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math4cosdIgEET_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math4sindIdEET_S2_@Base 1.50
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZN13GeographicLib4Math4sindIeEET_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math4sindIfEET_S2_@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math4sindIgEET_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math4tandIdEET_S2_@Base 1.50
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZN13GeographicLib4Math4tandIeEET_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math4tandIfEET_S2_@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math4tandIgEET_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math4taufIdEET_S2_S2_@Base 1.42
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZN13GeographicLib4Math4taufIeEET_S2_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math4taufIfEET_S2_S2_@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math4taufIgEET_S2_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math5atandIdEET_S2_@Base 1.50
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZN13GeographicLib4Math5atandIeEET_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math5atandIfEET_S2_@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math5atandIgEET_S2_@Base 1.50
+ _ZN13GeographicLib4Math5dummyEv@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math5taupfIdEET_S2_S2_@Base 1.42
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZN13GeographicLib4Math5taupfIeEET_S2_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math5taupfIfEET_S2_S2_@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math5taupfIgEET_S2_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math6atan2dIdEET_S2_S2_@Base 1.50
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZN13GeographicLib4Math6atan2dIeEET_S2_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math6atan2dIfEET_S2_S2_@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math6atan2dIgEET_S2_S2_@Base 1.50
+ _ZN13GeographicLib4Math6digitsEv@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math7AngDiffIdEET_S2_S2_RS2_@Base 2.0
+ (optional=templinst|arch=!powerpc !ppc64 !ppc64el !s390x)_ZN13GeographicLib4Math7AngDiffIeEET_S2_S2_RS2_@Base 2.0
+ (optional=templinst)_ZN13GeographicLib4Math7AngDiffIfEET_S2_S2_RS2_@Base 2.0
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math7AngDiffIgEET_S2_S2_RS2_@Base 2.0
+ (optional=templinst)_ZN13GeographicLib4Math7eatanheIdEET_S2_S2_@Base 1.42
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZN13GeographicLib4Math7eatanheIeEET_S2_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math7eatanheIfEET_S2_S2_@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math7eatanheIgEET_S2_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math7sincosdIdEEvT_RS2_S3_@Base 1.50
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZN13GeographicLib4Math7sincosdIeEEvT_RS2_S3_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math7sincosdIfEEvT_RS2_S3_@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math7sincosdIgEEvT_RS2_S3_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math8AngRoundIdEET_S2_@Base 1.50
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZN13GeographicLib4Math8AngRoundIeEET_S2_@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math8AngRoundIfEET_S2_@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math8AngRoundIgEET_S2_@Base 1.50
+ _ZN13GeographicLib4Math8digits10Ev@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math8infinityIdEET_v@Base 1.50
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZN13GeographicLib4Math8infinityIeEET_v@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math8infinityIfEET_v@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math8infinityIgEET_v@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math8infinityIiEET_v@Base 1.50
+ (optional=templinst)_ZN13GeographicLib4Math8sincosdeIdEEvT_S2_RS2_S3_@Base 2.0
+ (optional=templinst|arch=!powerpc !ppc64 !ppc64el !s390x)_ZN13GeographicLib4Math8sincosdeIeEEvT_S2_RS2_S3_@Base 2.0
+ (optional=templinst)_ZN13GeographicLib4Math8sincosdeIfEEvT_S2_RS2_S3_@Base 2.0
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZN13GeographicLib4Math8sincosdeIgEEvT_S2_RS2_S3_@Base 2.0
+ _ZN13GeographicLib4OSGB11CheckCoordsEdd@Base 1.40
+ _ZN13GeographicLib4OSGB13GridReferenceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERdS9_Rib@Base 1.43
+ _ZN13GeographicLib4OSGB13GridReferenceEddiRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.43
+ _ZN13GeographicLib4OSGB18computenorthoffsetEv@Base 1.40
+ _ZN13GeographicLib4OSGB6OSGBTMEv@Base 1.40
+ _ZN13GeographicLib4OSGB7digits_E@Base 1.49
+ _ZN13GeographicLib4OSGB8letters_E@Base 1.49
+ _ZN13GeographicLib5Geoid16DefaultGeoidNameB5cxx11Ev@Base 1.43
+ _ZN13GeographicLib5Geoid16DefaultGeoidPathB5cxx11Ev@Base 1.43
+ _ZN13GeographicLib5Geoid3c0_E@Base 1.40
+ _ZN13GeographicLib5Geoid3c3_E@Base 1.40
+ _ZN13GeographicLib5Geoid4c0n_E@Base 1.40
+ _ZN13GeographicLib5Geoid4c0s_E@Base 1.40
+ _ZN13GeographicLib5Geoid4c3n_E@Base 1.40
+ _ZN13GeographicLib5Geoid4c3s_E@Base 1.40
+ _ZN13GeographicLib5GeoidC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bb@Base 1.43
+ _ZN13GeographicLib5GeoidC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_bb@Base 1.43
+ _ZN13GeographicLib5Rhumb10AreaCoeffsEv@Base 2.2
+ _ZN13GeographicLib5Rhumb10qIntegrandC1ERKNS_11AuxLatitudeE@Base 2.2
+ _ZN13GeographicLib5Rhumb10qIntegrandC2ERKNS_11AuxLatitudeE@Base 2.2
+ _ZN13GeographicLib5Rhumb5WGS84Ev@Base 1.40
+ _ZN13GeographicLib5RhumbC1Eddb@Base 1.40
+ _ZN13GeographicLib5RhumbC2Eddb@Base 1.40
+ _ZN13GeographicLib5RhumbD1Ev@Base 2.2
+ _ZN13GeographicLib5RhumbD2Ev@Base 2.2
+ _ZN13GeographicLib6Georef7ForwardEddiRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.44
+ _ZN13GeographicLib6Georef7ReverseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERdS9_Rib@Base 1.44
+ _ZN13GeographicLib6Georef7digits_E@Base 1.49
+ _ZN13GeographicLib6Georef8degrees_E@Base 1.49
+ _ZN13GeographicLib6Georef8lattile_E@Base 1.49
+ _ZN13GeographicLib6Georef8lontile_E@Base 1.49
+ _ZN13GeographicLib6UTMUPS10DecodeEPSGEiRiRb@Base 1.40
+ _ZN13GeographicLib6UTMUPS10DecodeZoneERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERiRb@Base 1.43
+ _ZN13GeographicLib6UTMUPS10EncodeEPSGEib@Base 1.40
+ _ZN13GeographicLib6UTMUPS10EncodeZoneB5cxx11Eibb@Base 1.43
+ _ZN13GeographicLib6UTMUPS11CheckCoordsEbbddbb@Base 1.40
+ _ZN13GeographicLib6UTMUPS11maxeasting_E@Base 1.40
+ _ZN13GeographicLib6UTMUPS11mineasting_E@Base 1.40
+ _ZN13GeographicLib6UTMUPS12StandardZoneEddi@Base 1.40
+ _ZN13GeographicLib6UTMUPS12maxnorthing_E@Base 1.40
+ _ZN13GeographicLib6UTMUPS12minnorthing_E@Base 1.40
+ _ZN13GeographicLib6UTMUPS13falseeasting_E@Base 1.40
+ _ZN13GeographicLib6UTMUPS14falsenorthing_E@Base 1.40
+ _ZN13GeographicLib6UTMUPS7ForwardEddRiRbRdS3_S3_S3_ib@Base 1.40
+ _ZN13GeographicLib6UTMUPS7ReverseEibddRdS1_S1_S1_b@Base 1.40
+ _ZN13GeographicLib6UTMUPS8TransferEibddibRdS1_Ri@Base 1.40
+ _ZN13GeographicLib6UTMUPS8UTMShiftEv@Base 1.40
+ _ZN13GeographicLib7Geohash7ForwardEddiRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.43
+ _ZN13GeographicLib7Geohash7ReverseERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERdS9_Rib@Base 1.43
+ _ZN13GeographicLib7Geohash9lcdigits_E@Base 1.49
+ _ZN13GeographicLib7Geohash9ucdigits_E@Base 1.49
+ _ZN13GeographicLib7Utility10set_digitsEi@Base 1.40
+ _ZN13GeographicLib7Utility3dayEiii@Base 2.0
+ _ZN13GeographicLib7Utility3dayEiiib@Base 2.0
+ (optional=templinst)_ZN13GeographicLib7Utility3strIcEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEET_i@Base 1.43
+ (optional=templinst)_ZN13GeographicLib7Utility3strIdEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEET_i@Base 2.0
+ (optional=templinst)_ZN13GeographicLib7Utility3strIiEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEET_i@Base 1.43
+ (optional=templinst)_ZN13GeographicLib7Utility3strIsEENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEET_i@Base 1.50
+ (optional=templinst)_ZN13GeographicLib7Utility3valIdEET_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.47
+ (optional=templinst)_ZN13GeographicLib7Utility3valIiEET_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.50
+ _ZN13GeographicLib7Utility4dateERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERiS9_S9_@Base 2.0
+ _ZN13GeographicLib7Utility4dateEiRiS1_S1_@Base 2.0
+ _ZN13GeographicLib7Utility4trimERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 2.0
+ (optional=templinst)_ZN13GeographicLib7Utility5fractIdEET_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.50
+ _ZN13GeographicLib7Utility6lookupEPKcc@Base 2.0
+ _ZN13GeographicLib7Utility6lookupERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEc@Base 2.0
+ (optional=templinst|arch=alpha amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32)_ZN13GeographicLib7Utility8nummatchIdEET_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.50.1
+ _ZN13GeographicLib7Utility9ParseLineERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERS6_S9_cc@Base 2.1
+ _ZN13GeographicLib8AuxAngle3NaNEv@Base 2.2
+ _ZN13GeographicLib8AuxAnglepLERKS0_@Base 2.2
+ _ZN13GeographicLib8Geodesic12SinCosSeriesEbddPKdi@Base 1.40
+ _ZN13GeographicLib8Geodesic3C1fEdPd@Base 1.40
+ _ZN13GeographicLib8Geodesic3C2fEdPd@Base 1.40
+ _ZN13GeographicLib8Geodesic4C1pfEdPd@Base 1.40
+ _ZN13GeographicLib8Geodesic5A1m1fEd@Base 1.40
+ _ZN13GeographicLib8Geodesic5A2m1fEd@Base 1.40
+ _ZN13GeographicLib8Geodesic5WGS84Ev@Base 1.40
+ _ZN13GeographicLib8Geodesic7A3coeffEv@Base 1.40
+ _ZN13GeographicLib8Geodesic7AstroidEdd@Base 1.40
+ _ZN13GeographicLib8Geodesic7C3coeffEv@Base 1.40
+ _ZN13GeographicLib8Geodesic7C4coeffEv@Base 1.40
+ _ZN13GeographicLib8GeodesicC1Edd@Base 1.40
+ _ZN13GeographicLib8GeodesicC2Edd@Base 1.40
+ _ZN13GeographicLib8GnomonicC1ERKNS_8GeodesicE@Base 1.40
+ _ZN13GeographicLib8GnomonicC2ERKNS_8GeodesicE@Base 1.40
+ _ZN13GeographicLib9Ellipsoid5WGS84Ev@Base 1.40
+ _ZN13GeographicLib9EllipsoidC1Edd@Base 1.40
+ _ZN13GeographicLib9EllipsoidC2Edd@Base 1.40
+ _ZN13GeographicLib9GeoCoords12UTMUPSStringEibddibRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE@Base 1.43
+ _ZN13GeographicLib9GeoCoords13FixHemisphereEv@Base 1.40
+ _ZN13GeographicLib9GeoCoords5ResetERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbb@Base 1.43
+ _ZN13GeographicLib9RhumbLineC1ERKNS_5RhumbEddd@Base 2.0
+ _ZN13GeographicLib9RhumbLineC2ERKNS_5RhumbEddd@Base 2.0
+ (optional=templinst|arch=!amd64 !arm64 !ia64 !mips64el !ppc64 !ppc64el !riscv64 !s390x !sparc64)_ZN7kissfftIdEC1Ejb@Base 2.1
+ (optional=templinst|arch=amd64 arm64 mips64el ppc64 ppc64el riscv64 s390x sparc64)_ZN7kissfftIdEC1Emb@Base 2.1
+ (optional=templinst|arch=!amd64 !arm64 !ia64 !mips64el !ppc64 !ppc64el !riscv64 !s390x !sparc64)_ZN7kissfftIdEC2Ejb@Base 2.1
+ (optional=templinst|arch=amd64 arm64 mips64el ppc64 ppc64el riscv64 s390x sparc64)_ZN7kissfftIdEC2Emb@Base 2.1
+ _ZNK13GeographicLib10Geocentric10IntForwardEdddRdS1_S1_Pd@Base 1.40
+ _ZNK13GeographicLib10Geocentric10IntReverseEdddRdS1_S1_Pd@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib11AccumulatorIdE3SumEd@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib11AccumulatorIdEclEd@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib11AccumulatorIdEclEv@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib11AccumulatorIdEeqEd@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib11AccumulatorIdEgeEd@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib11AccumulatorIdEgtEd@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib11AccumulatorIdEleEd@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib11AccumulatorIdEltEd@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib11AccumulatorIdEneEd@Base 1.40
+ _ZNK13GeographicLib11AuxLatitude10GeocentricERKNS_8AuxAngleEPd@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude10ParametricERKNS_8AuxAngleEPd@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude10RectifyingERKNS_8AuxAngleEPd@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude11ToAuxiliaryEiRKNS_8AuxAngleEPd@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude13FromAuxiliaryEiRKNS_8AuxAngleEPi@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude16RectifyingRadiusEb@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude1qEd@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude21AuthalicRadiusSquaredEb@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude2DqEd@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude7ConvertEiiRKNS_8AuxAngleEb@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude7ConvertEiidb@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude7atanheeEd@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude8AuthalicERKNS_8AuxAngleEPd@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude9ConformalERKNS_8AuxAngleEPd@Base 2.2
+ _ZNK13GeographicLib11AuxLatitude9fillcoeffEiii@Base 2.2
+ _ZNK13GeographicLib12DAuxLatitude10DIsometricERKNS_8AuxAngleES3_@Base 2.2
+ _ZNK13GeographicLib12DAuxLatitude11DParametricERKNS_8AuxAngleES3_@Base 2.2
+ _ZNK13GeographicLib12DAuxLatitude11DRectifyingERKNS_8AuxAngleES3_@Base 2.2
+ _ZNK13GeographicLib12DAuxLatitude2DEERKNS_8AuxAngleES3_@Base 2.2
+ _ZNK13GeographicLib12DAuxLatitude8DConvertEiiRKNS_8AuxAngleES3_@Base 2.2
+ _ZNK13GeographicLib12DAuxLatitude8DatanheeEdd@Base 2.2
+ _ZNK13GeographicLib12GeodesicLine11GenPositionEbdjRdS1_S1_S1_S1_S1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib12GravityModel11DisturbanceEdddRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib12GravityModel11GeoidHeightEdd@Base 1.40
+ _ZNK13GeographicLib12GravityModel16SphericalAnomalyEdddRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib12GravityModel1VEdddRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib12GravityModel1WEdddRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib12GravityModel6CircleEddj@Base 1.40
+ _ZNK13GeographicLib12GravityModel7GravityEdddRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib12GravityModel9InternalTEdddRdS1_S1_bb@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_13GeodesicExactEE10AreaReduceIdEEvRT_ibb@Base 1.50
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_13GeodesicExactEE10FlatteningEv@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_13GeodesicExactEE12CurrentPointERdS3_@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_13GeodesicExactEE12NumberPointsEv@Base 2.0
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_13GeodesicExactEE16EquatorialRadiusEv@Base 1.50
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_13GeodesicExactEE7ComputeEbbRdS3_@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_13GeodesicExactEE8PolylineEv@Base 2.0
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_13GeodesicExactEE8TestEdgeEddbbRdS3_@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_13GeodesicExactEE9RemainderERNS_11AccumulatorIdEE@Base 1.50
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_13GeodesicExactEE9RemainderERd@Base 1.50
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_13GeodesicExactEE9TestPointEddbbRdS3_@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_5RhumbEE10AreaReduceIdEEvRT_ibb@Base 1.50
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_5RhumbEE10FlatteningEv@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_5RhumbEE12CurrentPointERdS3_@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_5RhumbEE12NumberPointsEv@Base 2.0
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_5RhumbEE16EquatorialRadiusEv@Base 1.50
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_5RhumbEE7ComputeEbbRdS3_@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_5RhumbEE8PolylineEv@Base 2.0
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_5RhumbEE8TestEdgeEddbbRdS3_@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_5RhumbEE9RemainderERNS_11AccumulatorIdEE@Base 1.50
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_5RhumbEE9RemainderERd@Base 1.50
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_5RhumbEE9TestPointEddbbRdS3_@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_8GeodesicEE10AreaReduceIdEEvRT_ibb@Base 1.50
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_8GeodesicEE10FlatteningEv@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_8GeodesicEE12CurrentPointERdS3_@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_8GeodesicEE12NumberPointsEv@Base 2.0
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_8GeodesicEE16EquatorialRadiusEv@Base 1.50
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_8GeodesicEE7ComputeEbbRdS3_@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_8GeodesicEE8PolylineEv@Base 2.0
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_8GeodesicEE8TestEdgeEddbbRdS3_@Base 1.40
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_8GeodesicEE9RemainderERNS_11AccumulatorIdEE@Base 1.50
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_8GeodesicEE9RemainderERd@Base 1.50
+ (optional=templinst)_ZNK13GeographicLib12PolygonAreaTINS_8GeodesicEE9TestPointEddbbRdS3_@Base 1.40
+ _ZNK13GeographicLib13GeodesicExact10DirectLineEddddj@Base 1.46
+ _ZNK13GeographicLib13GeodesicExact10GenInverseEddddjRdS1_S1_S1_S1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib13GeodesicExact10GenInverseEddddjRdS1_S1_S1_S1_S1_S1_S1_S1_@Base 1.46
+ _ZNK13GeographicLib13GeodesicExact11I4Integrand3DtXEd@Base 2.1
+ _ZNK13GeographicLib13GeodesicExact11I4IntegrandclEd@Base 2.1
+ _ZNK13GeographicLib13GeodesicExact11InverseLineEddddj@Base 1.46
+ _ZNK13GeographicLib13GeodesicExact12InverseStartERNS_16EllipticFunctionEdddddddddRdS3_S3_S3_S3_@Base 1.46
+ _ZNK13GeographicLib13GeodesicExact13ArcDirectLineEddddj@Base 1.46
+ _ZNK13GeographicLib13GeodesicExact13GenDirectLineEdddbdj@Base 1.46
+ _ZNK13GeographicLib13GeodesicExact4LineEdddj@Base 1.40
+ _ZNK13GeographicLib13GeodesicExact7LengthsERKNS_16EllipticFunctionEdddddddddjRdS4_S4_S4_S4_@Base 1.44
+ _ZNK13GeographicLib13GeodesicExact8Lambda12EddddddddddRdS1_S1_S1_S1_S1_S1_RNS_16EllipticFunctionES1_bS1_@Base 1.47
+ _ZNK13GeographicLib13GeodesicExact9GenDirectEdddbdjRdS1_S1_S1_S1_S1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib13GravityCircle11DisturbanceEdRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib13GravityCircle11GeoidHeightEd@Base 1.40
+ _ZNK13GeographicLib13GravityCircle16SphericalAnomalyEdRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib13GravityCircle1VEddRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib13GravityCircle1WEddRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib13GravityCircle7GravityEdRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib13GravityCircle9InternalTEddRdS1_S1_bb@Base 1.40
+ _ZNK13GeographicLib13MagneticModel15FieldGeocentricEddddRdS1_S1_S1_S1_S1_@Base 1.52
+ _ZNK13GeographicLib13MagneticModel5FieldEddddbRdS1_S1_S1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib13MagneticModel6CircleEddd@Base 1.40
+ _ZNK13GeographicLib13NormalGravity14SurfaceGravityEd@Base 1.40
+ _ZNK13GeographicLib13NormalGravity1UEdddRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib13NormalGravity2JnEi@Base 1.40
+ _ZNK13GeographicLib13NormalGravity2V0EdddRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib13NormalGravity3PhiEddRdS1_@Base 1.40
+ _ZNK13GeographicLib13NormalGravity7GravityEddRdS1_@Base 1.40
+ _ZNK13GeographicLib14CassiniSoldner7ForwardEddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib14CassiniSoldner7ReverseEddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib14CircularEngine5ValueEbddRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib14LocalCartesian10IntForwardEdddRdS1_S1_Pd@Base 1.40
+ _ZNK13GeographicLib14LocalCartesian10IntReverseEdddRdS1_S1_Pd@Base 1.40
+ _ZNK13GeographicLib14LocalCartesian14MatrixMultiplyEPd@Base 1.40
+ _ZNK13GeographicLib14MagneticCircle15FieldGeocentricEdRdS1_S1_S1_S1_S1_@Base 1.52
+ _ZNK13GeographicLib14MagneticCircle15FieldGeocentricEddRdS1_S1_S1_S1_S1_@Base 1.52
+ _ZNK13GeographicLib14MagneticCircle5FieldEdbRdS1_S1_S1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib15AlbersEqualArea10DDatanhee0Edd@Base 1.52
+ _ZNK13GeographicLib15AlbersEqualArea10DDatanhee1Edd@Base 1.52
+ _ZNK13GeographicLib15AlbersEqualArea10DDatanhee2Edd@Base 1.52
+ _ZNK13GeographicLib15AlbersEqualArea4txifEd@Base 1.40
+ _ZNK13GeographicLib15AlbersEqualArea5tphifEd@Base 1.40
+ _ZNK13GeographicLib15AlbersEqualArea7ForwardEdddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib15AlbersEqualArea7ReverseEdddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib15AlbersEqualArea9DDatanheeEdd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction1DEd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction1DEddd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction1EEd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction1EEddd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction1FEd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction1FEddd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction1GEd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction1GEddd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction1HEd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction1HEddd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction2EdEd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction2PiEd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction2PiEddd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction4EinvEd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction6deltaDEddd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction6deltaEEddd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction6deltaFEddd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction6deltaGEddd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction6deltaHEddd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction6sncndnEdRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction7deltaPiEddd@Base 1.40
+ _ZNK13GeographicLib16EllipticFunction9deltaEinvEdd@Base 1.40
+ _ZNK13GeographicLib17GeodesicLineExact11GenPositionEbdjRdS1_S1_S1_S1_S1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib18PolarStereographic7ForwardEbddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib18PolarStereographic7ReverseEbddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib18TransverseMercator7ForwardEdddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib18TransverseMercator7ReverseEdddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib20AzimuthalEquidistant7ForwardEddddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib20AzimuthalEquidistant7ReverseEddddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib21LambertConformalConic7ForwardEdddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib21LambertConformalConic7ReverseEdddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib23TransverseMercatorExact4zetaEddddddddRdS1_@Base 1.40
+ _ZNK13GeographicLib23TransverseMercatorExact5ScaleEddddddddRdS1_@Base 1.40
+ _ZNK13GeographicLib23TransverseMercatorExact5sigmaEddddddddRdS1_@Base 1.40
+ _ZNK13GeographicLib23TransverseMercatorExact7ForwardEdddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib23TransverseMercatorExact7ReverseEdddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib23TransverseMercatorExact7dwdzetaEddddddddRdS1_@Base 1.40
+ _ZNK13GeographicLib23TransverseMercatorExact7zetainvEddRdS1_@Base 1.40
+ _ZNK13GeographicLib23TransverseMercatorExact8dwdsigmaEddddddddRdS1_@Base 1.40
+ _ZNK13GeographicLib23TransverseMercatorExact8sigmainvEddRdS1_@Base 1.40
+ _ZNK13GeographicLib23TransverseMercatorExact8zetainv0EddRdS1_@Base 1.40
+ _ZNK13GeographicLib23TransverseMercatorExact9sigmainv0EddRdS1_@Base 1.40
+ _ZNK13GeographicLib3DST13fft_transformEPdS1_b@Base 2.1
+ _ZNK13GeographicLib3DST14fft_transform2EPdS1_@Base 2.1
+ _ZNK13GeographicLib3DST6refineESt8functionIFddEEPd@Base 2.1
+ _ZNK13GeographicLib3DST9transformESt8functionIFddEEPd@Base 2.1
+ _ZNK13GeographicLib5Geoid10CacheClearEv@Base 1.40
+ _ZNK13GeographicLib5Geoid6heightEdd@Base 1.46
+ (arch=alpha amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32)_ZNK13GeographicLib5Geoid6rawvalEii@Base 1.51
+ _ZNK13GeographicLib5Geoid9CacheAreaEdddd@Base 1.40
+ _ZNK13GeographicLib5Rhumb10GenInverseEddddjRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib5Rhumb10qIntegrandclEd@Base 2.2
+ _ZNK13GeographicLib5Rhumb4LineEddd@Base 1.40
+ _ZNK13GeographicLib5Rhumb9GenDirectEddddjRdS1_S1_@Base 1.40
+ _ZNK13GeographicLib5Rhumb9MeanSinXiERKNS_8AuxAngleES3_@Base 2.2
+ _ZNK13GeographicLib8AuxAngle10normalizedEv@Base 2.2
+ _ZNK13GeographicLib8AuxAngle12copyquadrantERKS0_@Base 2.2
+ _ZNK13GeographicLib8Geodesic10DirectLineEddddj@Base 1.46
+ _ZNK13GeographicLib8Geodesic10GenInverseEddddjRdS1_S1_S1_S1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib8Geodesic10GenInverseEddddjRdS1_S1_S1_S1_S1_S1_S1_S1_@Base 1.46
+ _ZNK13GeographicLib8Geodesic11InverseLineEddddj@Base 1.46
+ _ZNK13GeographicLib8Geodesic12InverseStartEdddddddddRdS1_S1_S1_S1_Pd@Base 1.46
+ _ZNK13GeographicLib8Geodesic13ArcDirectLineEddddj@Base 1.46
+ _ZNK13GeographicLib8Geodesic13GenDirectLineEdddbdj@Base 1.46
+ _ZNK13GeographicLib8Geodesic3A3fEd@Base 1.40
+ _ZNK13GeographicLib8Geodesic3C3fEdPd@Base 1.40
+ _ZNK13GeographicLib8Geodesic3C4fEdPd@Base 1.40
+ _ZNK13GeographicLib8Geodesic4LineEdddj@Base 1.40
+ _ZNK13GeographicLib8Geodesic7LengthsEddddddddddjRdS1_S1_S1_S1_Pd@Base 1.44
+ _ZNK13GeographicLib8Geodesic8Lambda12EddddddddddRdS1_S1_S1_S1_S1_S1_S1_S1_bS1_Pd@Base 1.47
+ _ZNK13GeographicLib8Geodesic9GenDirectEdddbdjRdS1_S1_S1_S1_S1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib8Gnomonic7ForwardEddddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib8Gnomonic7ReverseEddddRdS1_S1_S1_@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid12CircleHeightEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid12CircleRadiusEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid15QuarterMeridianEv@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid16AuthalicLatitudeEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid16MeridianDistanceEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid17ConformalLatitudeEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid17IsometricLatitudeEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid18GeocentricLatitudeEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid18ParametricLatitudeEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid18RectifyingLatitudeEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid21NormalCurvatureRadiusEdd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid23InverseAuthalicLatitudeEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid24InverseConformalLatitudeEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid24InverseIsometricLatitudeEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid25InverseGeocentricLatitudeEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid25InverseParametricLatitudeEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid25InverseRectifyingLatitudeEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid25MeridionalCurvatureRadiusEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid25TransverseCurvatureRadiusEd@Base 1.40
+ _ZNK13GeographicLib9Ellipsoid4AreaEv@Base 1.40
+ _ZNK13GeographicLib9GeoCoords17DMSRepresentationB5cxx11Eibc@Base 1.43
+ _ZNK13GeographicLib9GeoCoords17GeoRepresentationB5cxx11Eib@Base 1.43
+ _ZNK13GeographicLib9GeoCoords18MGRSRepresentationB5cxx11Ei@Base 1.43
+ _ZNK13GeographicLib9GeoCoords20UTMUPSRepresentationB5cxx11Ebib@Base 1.43
+ _ZNK13GeographicLib9GeoCoords20UTMUPSRepresentationB5cxx11Eib@Base 1.43
+ _ZNK13GeographicLib9GeoCoords21AltMGRSRepresentationB5cxx11Ei@Base 1.43
+ _ZNK13GeographicLib9GeoCoords23AltUTMUPSRepresentationB5cxx11Ebib@Base 1.43
+ _ZNK13GeographicLib9GeoCoords23AltUTMUPSRepresentationB5cxx11Eib@Base 1.43
+ _ZNK13GeographicLib9RhumbLine11GenPositionEdjRdS1_S1_@Base 1.40
+ (optional=templinst)_ZNK7kissfftIdE14transform_realEPKdPSt7complexIdE@Base 2.1
+ (optional=templinst|arch=armel armhf hurd-i386 i386 m68k mipsel powerpc)_ZNK7kissfftIdE8kf_bfly3EPSt7complexIdEjj@Base 2.1
+ (optional=templinst|arch=armel armhf hurd-i386 i386 m68k mipsel powerpc)_ZNK7kissfftIdE8kf_bfly4EPSt7complexIdEjj@Base 2.1
+ (optional=templinst|arch=!amd64 !arm64 !ia64 !mips64el !ppc64 !ppc64el !riscv64 !s390x !sparc64)_ZNK7kissfftIdE8kf_bfly5EPSt7complexIdEjj@Base 2.1
+ (optional=templinst|arch=amd64 arm64 mips64el ppc64 ppc64el riscv64 s390x sparc64)_ZNK7kissfftIdE8kf_bfly5EPSt7complexIdEmm@Base 2.1
+ (optional=templinst|arch=!amd64 !arm64 !ia64 !mips64el !ppc64 !ppc64el !riscv64 !s390x !sparc64)_ZNK7kissfftIdE9transformEPKSt7complexIdEPS2_jjj@Base 2.1
+ (optional=templinst|arch=amd64 arm64 mips64el ppc64 ppc64el riscv64 s390x sparc64)_ZNK7kissfftIdE9transformEPKSt7complexIdEPS2_mmm@Base 2.1
+ (optional=templinst)_ZNKSt5ctypeIcE8do_widenEc@Base 1.40
+ (optional=templinst|arch=alpha amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32)_ZNSt12_Destroy_auxILb0EE9__destroyIPSt6vectorItSaItEEEEvT_S6_@Base 1.50.1
+ _ZNSt14_Function_baseD1Ev@Base 2.1
+ _ZNSt14_Function_baseD2Ev@Base 2.1
+ (optional=templinst|arch=armel riscv64)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE1EE10_M_disposeEv@Base 2.1
+ (optional=templinst|arch=!armel !riscv64)_ZNSt15_Sp_counted_ptrIDnLN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 2.1
+ (optional=templinst|arch=armel riscv64)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 2.1
+ (optional=templinst|arch=armel riscv64)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE10_M_releaseEv@Base 2.1
+ (optional=templinst|arch=!armel !riscv64)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 2.1
+ (optional=templinst|arch=!armel !riscv64)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv@Base 2.1
+ (optional=templinst|arch=amd64 arm64 mips64el ppc64 ppc64el s390x)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE24_M_release_last_use_coldEv@Base 2.1.1
+ (optional=templinst)_ZNSt17_Function_handlerIFddEN13GeographicLib13GeodesicExact11I4IntegrandEE10_M_managerERSt9_Any_dataRKS5_St18_Manager_operation@Base 2.1
+ (optional=templinst)_ZNSt17_Function_handlerIFddEN13GeographicLib13GeodesicExact11I4IntegrandEE9_M_invokeERKSt9_Any_dataOd@Base 2.1
+ (optional=templinst)_ZNSt17_Function_handlerIFddEN13GeographicLib5Rhumb10qIntegrandEE10_M_managerERSt9_Any_dataRKS5_St18_Manager_operation@Base 2.2
+ (optional=templinst)_ZNSt17_Function_handlerIFddEN13GeographicLib5Rhumb10qIntegrandEE9_M_invokeERKSt9_Any_dataOd@Base 2.2
+ (optional=templinst|arch=armel riscv64)_ZNSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE1EE10_M_destroyEv@Base 2.2
+ (optional=templinst|arch=armel riscv64)_ZNSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE1EE10_M_disposeEv@Base 2.2
+ (optional=templinst|arch=armel riscv64)_ZNSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE1EE14_M_get_deleterERKSt9type_info@Base 2.2
+ (optional=templinst|arch=armel riscv64)_ZNSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE1EED0Ev@Base 2.2
+ (optional=templinst|arch=armel riscv64)_ZNSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE1EED1Ev@Base 2.2
+ (optional=templinst|arch=armel riscv64)_ZNSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE1EED2Ev@Base 2.2
+ (optional=templinst|arch=!armel !riscv64)_ZNSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 2.1.1
+ (optional=templinst|arch=!armel !riscv64)_ZNSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 2.1.1
+ (optional=templinst|arch=!armel !riscv64)_ZNSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info@Base 2.1.1
+ (optional=templinst|arch=!armel !riscv64)_ZNSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE2EED0Ev@Base 2.1.1
+ (optional=templinst|arch=!armel !riscv64)_ZNSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE2EED1Ev@Base 2.1.1
+ (optional=templinst|arch=!armel !riscv64)_ZNSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE2EED2Ev@Base 2.1.1
+ (optional=templinst)_ZNSt6vectorIN13GeographicLib17SphericalHarmonicESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_@Base 1.49
+ (optional=templinst)_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_@Base 1.49
+ (optional=templinst|subst)_ZNSt6vectorIS_IdSaIdEESaIS1_EE17_M_default_appendE{size_t}@Base 1.43
+ (optional=templinst)_ZNSt6vectorIS_IdSaIdEESaIS1_EED1Ev@Base 1.40
+ (optional=templinst)_ZNSt6vectorIS_IdSaIdEESaIS1_EED2Ev@Base 1.40
+ (optional=templinst|subst)_ZNSt6vectorIS_ItSaItEESaIS1_EE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPS1_S3_EE{size_t}RKS1_@Base 1.40
+ (optional=templinst|arch=!amd64 !arm64 !ia64 !mips64el !ppc64 !ppc64el !riscv64 !s390x !sparc64)_ZNSt6vectorISt7complexIdESaIS1_EE17_M_default_appendEj@Base 2.1
+ (optional=templinst|arch=amd64 arm64 mips64el ppc64 ppc64el riscv64 s390x sparc64)_ZNSt6vectorISt7complexIdESaIS1_EE17_M_default_appendEm@Base 2.1
+ _ZNSt6vectorIdSaIdEE12emplace_backIJdEEEvDpOT_@Base 2.0
+ (optional=templinst|subst)_ZNSt6vectorIdSaIdEE14_M_fill_insertEN9__gnu_cxx17__normal_iteratorIPdS1_EE{size_t}RKd@Base 1.40
+ (optional=templinst|subst)_ZNSt6vectorIdSaIdEE17_M_default_appendE{size_t}@Base 1.43
+ (optional=templinst)_ZNSt6vectorIdSaIdEED1Ev@Base 1.40
+ (optional=templinst)_ZNSt6vectorIdSaIdEED2Ev@Base 1.40
+ (optional=templinst|arch=!amd64 !arm64 !ia64 !mips64el !ppc64 !ppc64el !riscv64 !s390x !sparc64)_ZNSt6vectorIjSaIjEE17_M_realloc_insertIJRKjEEEvN9__gnu_cxx17__normal_iteratorIPjS1_EEDpOT_@Base 2.1
+ (optional=templinst|arch=amd64 arm64 mips64el ppc64 ppc64el riscv64 s390x sparc64)_ZNSt6vectorImSaImEE17_M_realloc_insertIJRKmEEEvN9__gnu_cxx17__normal_iteratorIPmS1_EEDpOT_@Base 2.1
+ (optional=templinst|subst)_ZNSt6vectorItSaItEE17_M_default_appendE{size_t}@Base 1.49
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !ia64 !m68k !mips64el !mipsel !powerpc !ppc64 !ppc64el !riscv64 !s390x !sh4 !sparc64 !x32)_ZNSt6vectorItSaItEEaSERKS1_@Base 1.40
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !ia64 !m68k !mips64el !mipsel !powerpc !ppc64 !ppc64el !riscv64 !s390x !sh4 !sparc64 !x32)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag@Base 1.49
+ (optional=templinst|arch=!alpha !amd64 !arm64 !armel !armhf !hppa !hurd-i386 !i386 !ia64 !m68k !mips64el !mipsel !powerpc !ppc64 !ppc64el !riscv64 !s390x !sh4 !sparc64 !x32)_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag@Base 1.49
+ (optional=templinst)_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev@Base 1.43
+ (optional=templinst)_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev@Base 1.43
+ (optional=templinst)_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev@Base 1.43
+ _ZNSt7__cxx119to_stringEi@Base 2.1
+ (optional=templinst|subst)_ZSt18__do_uninit_fill_nIPSt6vectorItSaItEE{size_t}S2_ET_S4_T0_RKT1_@Base 2.1.1
+ (optional=templinst|arch=kfreebsd-amd64)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_RKS8_@Base 1.43
+ (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_S9_@Base 1.43
+ (optional=templinst|arch=amd64 arm64 kfreebsd-amd64 x32)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_OS8_@Base 1.43
+ (optional=templinst)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_RKS8_@Base 1.43
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 m68k mips64el powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 x32)_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EERKS8_PKS5_@Base 1.51
+ _ZTIN13GeographicLib13GeodesicExact11I4IntegrandE@Base 2.1
+ _ZTIN13GeographicLib13GeographicErrE@Base 1.40
+ _ZTIN13GeographicLib5Rhumb10qIntegrandE@Base 2.2
+ (arch=armel riscv64)_ZTIN9__gnu_cxx7__mutexE@Base 2.1
+ (arch=armel riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 2.1
+ (arch=!armel !riscv64)_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2
+ (arch=armel riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 2.1
+ (arch=!armel !riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2
+ (arch=armel armhf)_ZTISt19_Sp_make_shared_tag@Base 2.1
+ (arch=armel riscv64)_ZTISt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 2.2
+ (arch=!armel !riscv64)_ZTISt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 2.2
+ _ZTSN13GeographicLib13GeodesicExact11I4IntegrandE@Base 2.1
+ _ZTSN13GeographicLib13GeographicErrE@Base 1.40
+ _ZTSN13GeographicLib5Rhumb10qIntegrandE@Base 2.2
+ (arch=armel riscv64)_ZTSN9__gnu_cxx7__mutexE@Base 2.1
+ (arch=armel riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 2.1
+ (arch=!armel !riscv64)_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2
+ (arch=armel riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 2.1
+ (arch=!armel !riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 2.2
+ _ZTSSt19_Sp_make_shared_tag@Base 2.1
+ (arch=armel riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 2.2
+ (arch=!armel !riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 2.2
+ _ZTVN13GeographicLib13GeographicErrE@Base 1.40
+ (arch=armel riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 2.2
+ (arch=!armel !riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI7kissfftIdESaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 2.2
+ (optional=templinst)_ZZN13GeographicLib4Math4tandIdEET_S2_E8overflow@Base 1.42
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZZN13GeographicLib4Math4tandIeEET_S2_E8overflow@Base 1.50
+ (optional=templinst)_ZZN13GeographicLib4Math4tandIfEET_S2_E8overflow@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZZN13GeographicLib4Math4tandIgEET_S2_E8overflow@Base 1.50
+ (optional=templinst|arch=powerpc ppc64 ppc64el)_ZZN13GeographicLib4Math4taufIgEET_S2_S2_E3tol@Base 1.51
+ (optional=templinst)_ZZN13GeographicLib4Math6degreeIdEET_vE6degree@Base 1.40
+ (optional=templinst|arch=amd64 arm64 armel armhf hppa hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 m68k mips64el mipsel riscv64 sh4 sparc64 x32)_ZZN13GeographicLib4Math6degreeIeEET_vE6degree@Base 1.50
+ (optional=templinst)_ZZN13GeographicLib4Math6degreeIfEET_vE6degree@Base 1.50.1
+ (optional=templinst|arch=alpha powerpc ppc64 ppc64el s390x)_ZZN13GeographicLib4Math6degreeIgEET_vE6degree@Base 1.50
+ _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag@Base 2.1
+ (optional=templinst)_ZZNSt8__detail18__to_chars_10_implIjEEvPcjT_E8__digits@Base 2.0
+ (optional=templinst)_ZZNSt8__detail18__to_chars_10_implIyEEvPcjT_E8__digits@Base 2.0

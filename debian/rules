@@ -1,4 +1,26 @@
 #!/usr/bin/make -f
 
+# Enable hardening build flags
+export DEB_BUILD_MAINT_OPTIONS=hardening=+all
+
+include /usr/share/dpkg/pkg-info.mk
+
+UPSTREAM_VERSION=$(shell echo $(DEB_VERSION_UPSTREAM) | sed -e 's/\+.*//')
+
 %:
-	dh $@
+	dh $@ --with pkgkde_symbolshelper
+
+override_dh_install:
+	# Remove duplicate license information
+	$(RM) debian/tmp/usr/share/doc/geographiclib/html/LICENSE.txt
+
+	# Remove .la files
+	$(RM) debian/tmp/usr/lib/*/*.la
+
+	dh_install
+
+override_dh_installchangelogs:
+	dh_installchangelogs NEWS
+
+override_dh_makeshlibs:
+	dh_makeshlibs -- -v$(UPSTREAM_VERSION) -c0

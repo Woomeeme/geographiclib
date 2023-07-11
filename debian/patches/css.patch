@@ -1,0 +1,131 @@
+Description: Remote CSS privacy breach
+ The HTML versions of the geographiclib manuals pull a CSS
+ from the CPAN search website.
+ .
+ As that style sheet is a fairly plain CSS anyway, the
+ link has been disable so that the manual is plain HTML
+ instead.
+Author: Ross Gammon <rossgammon@mail.dk>
+Forwarded: not-needed
+
+--- a/man/CartConvert.1.html
++++ b/man/CartConvert.1.html
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" ?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+-<head><link href="http://search.cpan.org/s/style.css" rel="stylesheet" type="text/css">
++<head>
+ <title>CartConvert(1)</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rev="made" href="mailto:root@localhost" />
+--- a/man/ConicProj.1.html
++++ b/man/ConicProj.1.html
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" ?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+-<head><link href="http://search.cpan.org/s/style.css" rel="stylesheet" type="text/css">
++<head>
+ <title>ConicProj(1)</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rev="made" href="mailto:root@localhost" />
+--- a/man/GeoConvert.1.html
++++ b/man/GeoConvert.1.html
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" ?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+-<head><link href="http://search.cpan.org/s/style.css" rel="stylesheet" type="text/css">
++<head>
+ <title>GeoConvert(1)</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rev="made" href="mailto:root@localhost" />
+--- a/man/GeodSolve.1.html
++++ b/man/GeodSolve.1.html
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" ?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+-<head><link href="http://search.cpan.org/s/style.css" rel="stylesheet" type="text/css">
++<head>
+ <title>GeodSolve(1)</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rev="made" href="mailto:root@localhost" />
+--- a/man/GeodesicProj.1.html
++++ b/man/GeodesicProj.1.html
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" ?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+-<head><link href="http://search.cpan.org/s/style.css" rel="stylesheet" type="text/css">
++<head>
+ <title>GeodesicProj(1)</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rev="made" href="mailto:root@localhost" />
+--- a/man/GeoidEval.1.html
++++ b/man/GeoidEval.1.html
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" ?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+-<head><link href="http://search.cpan.org/s/style.css" rel="stylesheet" type="text/css">
++<head>
+ <title>GeoidEval(1)</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rev="made" href="mailto:root@localhost" />
+--- a/man/Gravity.1.html
++++ b/man/Gravity.1.html
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" ?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+-<head><link href="http://search.cpan.org/s/style.css" rel="stylesheet" type="text/css">
++<head>
+ <title>Gravity(1)</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rev="made" href="mailto:root@localhost" />
+--- a/man/MagneticField.1.html
++++ b/man/MagneticField.1.html
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" ?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+-<head><link href="http://search.cpan.org/s/style.css" rel="stylesheet" type="text/css">
++<head>
+ <title>MagneticField(1)</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rev="made" href="mailto:root@localhost" />
+--- a/man/Planimeter.1.html
++++ b/man/Planimeter.1.html
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" ?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+-<head><link href="http://search.cpan.org/s/style.css" rel="stylesheet" type="text/css">
++<head>
+ <title>Planimeter(1)</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rev="made" href="mailto:root@localhost" />
+--- a/man/RhumbSolve.1.html
++++ b/man/RhumbSolve.1.html
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" ?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+-<head><link href="http://search.cpan.org/s/style.css" rel="stylesheet" type="text/css">
++<head>
+ <title>RhumbSolve(1)</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rev="made" href="mailto:root@localhost" />
+--- a/man/TransverseMercatorProj.1.html
++++ b/man/TransverseMercatorProj.1.html
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" ?>
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+-<head><link href="http://search.cpan.org/s/style.css" rel="stylesheet" type="text/css">
++<head>
+ <title>TransverseMercatorProj(1)</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rev="made" href="mailto:root@localhost" />

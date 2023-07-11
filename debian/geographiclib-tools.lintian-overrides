@@ -1,0 +1,9 @@
+# Tools expect data in this directory, but no data is installed by the package
+package-contains-empty-directory [usr/share/GeographicLib/]
+
+# False positive on usage text
+bash-term-in-posix-shell 'let' *
+
+# False positive, lat/lon
+spelling-error-in-binary lon long *
+

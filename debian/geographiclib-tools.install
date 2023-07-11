@@ -1,0 +1,16 @@
+usr/share/man/man1
+usr/share/man/man8
+usr/bin/CartConvert
+usr/bin/ConicProj
+usr/bin/GeoConvert
+usr/bin/GeodesicProj
+usr/bin/GeodSolve
+usr/bin/GeoidEval
+usr/bin/Gravity
+usr/bin/MagneticField
+usr/bin/Planimeter
+usr/bin/TransverseMercatorProj
+usr/bin/RhumbSolve
+usr/sbin/geographiclib-get-geoids
+usr/sbin/geographiclib-get-gravity
+usr/sbin/geographiclib-get-magnetic

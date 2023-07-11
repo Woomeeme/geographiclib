@@ -1,0 +1,32 @@
+Description: Fix privacy breaches detected by lintian
+ Altered doxyfile*.in files to use the packaged version of MathJax,
+ and to disable the search function and avoid copies of jquery.js
+ being installed. The manual is available online if full search
+ functionality is required:
+ https://geographiclib.sourceforge.io/html/index.html
+ .
+ Two html pages were downloading the SourceForge logo. This was
+ replaced with text.
+Author: Ross Gammon <rossgammon@mail.dk>
+Forwarded: not-needed
+
+--- a/doc/doxyfile.in
++++ b/doc/doxyfile.in
+@@ -1756,7 +1756,7 @@ MATHJAX_FORMAT         = HTML-CSS
+ # - in case of MathJax version 3: https://cdn.jsdelivr.net/npm/mathjax@3
+ # This tag requires that the tag USE_MATHJAX is set to YES.
+ 
+-MATHJAX_RELPATH        =
++MATHJAX_RELPATH        = /usr/share/javascript/mathjax
+ 
+ # The MATHJAX_EXTENSIONS tag can be used to specify one or more MathJax
+ # extension names that should be enabled during MathJax rendering. For example
+@@ -1798,7 +1798,7 @@ MATHJAX_CODEFILE       =
+ # The default value is: YES.
+ # This tag requires that the tag GENERATE_HTML is set to YES.
+ 
+-SEARCHENGINE           = YES
++SEARCHENGINE           = NO
+ 
+ # When the SERVER_BASED_SEARCH tag is enabled the search engine will be
+ # implemented using a web server instead of a web client using JavaScript. There

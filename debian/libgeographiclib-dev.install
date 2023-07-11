@@ -1,0 +1,5 @@
+usr/lib/*/libGeographicLib.a
+usr/lib/*/libGeographicLib.so
+usr/lib/*/pkgconfig/
+usr/include/*
+usr/share/cmake/GeographicLib/FindGeographicLib.cmake usr/share/cmake/geographiclib/.

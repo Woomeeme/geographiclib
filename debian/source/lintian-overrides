@@ -1,0 +1,7 @@
+# Redirector doesn't handle subdirectories well.
+debian-watch-lacks-sourceforge-redirector *
+
+# False positive
+source: source-is-missing [doc/geodseries30.html]
+source: source-is-missing [man/*.html]
+

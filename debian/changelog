@@ -1,5 +1,623 @@
-template-repository (1.0-1) unstable; urgency=medium
+geographiclib (2.2-2) UNRELEASED; urgency=medium
 
-  * Initial release
+  * Bump debhelper compat to 13.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Bas Couwenberg <sebastic@debian.org>  Mon, 12 Jun 2023 08:31:11 +0200
+
+geographiclib (2.2-1) unstable; urgency=medium
+
+  * Update symbols for other architectures.
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sun, 11 Jun 2023 10:21:28 +0200
+
+geographiclib (2.2-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.6.2, no changes.
+  * Update watch file to ignore alpha pre-releases.
+  * Update copyright file.
+  * Rename library package for SONAME bump.
+  * Refresh patches.
+  * Remove .hpp files from .examples file, removed upstream.
+  * Update symbols for amd64.
+  * Update lintian overrides.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Wed, 08 Mar 2023 17:34:16 +0100
+
+geographiclib (2.1.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add Rules-Requires-Root to control file.
+  * Update lintian overrides.
+  * Refresh patches.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Wed, 14 Dec 2022 09:21:25 +0100
+
+geographiclib (2.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.6.1, no changes.
+  * Drop obsolete dh_strip override, dbgsym migration complete.
+  * Update symbols for amd64.
+  * Update lintian overrides.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Tue, 26 Jul 2022 05:33:19 +0200
+
+geographiclib (2.1-1) unstable; urgency=medium
+
+  * Update symbols for other architectures.
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Fri, 10 Jun 2022 13:43:41 +0200
+
+geographiclib (2.1-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update copyright file.
+  * Rename library package for SONAME bump.
+  * Refresh patches.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Thu, 09 Jun 2022 20:06:56 +0200
+
+geographiclib (2.0+ds-1) unstable; urgency=medium
+
+  * Update symbols for other architectures.
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sun, 15 May 2022 19:36:39 +0200
+
+geographiclib (2.0+ds-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+    Note: The previous 2.0 release was published prematurely.
+  * Update upstream metadata for GitHub repo.
+  * Update watch file for C++ releases.
+  * Update docs to include README.md instead of 00README.txt.
+  * Update symbols for other architectures.
+  * Update lintian overrides.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sat, 07 May 2022 15:01:25 +0200
+
+geographiclib (2.0-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.6.0, no changes.
+  * Bump debhelper compat to 12, changes:
+    - Drop --list-missing from dh_install
+  * Update watch file to exclude octave releases.
+  * Drop Python & Node.js packages, removed upstream.
+  * Update copyright file.
+  * Rename library package for SONAME bump.
+  * Refresh patches.
+  * Update lintian overrides.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Tue, 29 Mar 2022 12:56:32 +0200
+
+geographiclib (1.52-1) unstable; urgency=medium
+
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sun, 15 Aug 2021 10:03:27 +0200
+
+geographiclib (1.52-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.5.1, no changes.
+  * Don't bother with duplicate Doxygen files.
+    (closes: #988742)
+  * Update copyright file.
+  * Refresh patches.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Tue, 22 Jun 2021 15:49:18 +0200
+
+geographiclib (1.51-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update copyright file.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Mon, 23 Nov 2020 06:06:37 +0100
+
+geographiclib (1.50.1-2) unstable; urgency=medium
+
+  * Update symbols for other architectures.
+  * Bump Standards-Version to 4.5.0, no changes.
+  * Bump debhelper compat to 10, changes:
+    - Drop --parallel option, enabled by default
+    - Don't explicitly enable autoreconf, enabled by default
+    - Drop dh-autoreconf build dependency
+  * Bump watch file version to 4.
+  * Update lintian overrides.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Wed, 11 Nov 2020 17:44:43 +0100
+
+geographiclib (1.50.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Drop Name field from upstream metadata.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Thu, 12 Dec 2019 14:49:12 +0100
+
+geographiclib (1.50-1) unstable; urgency=medium
+
+  * Bump Standards-Version to 4.4.1, no changes.
+  * Update symbols for other architectures.
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sun, 13 Oct 2019 11:52:56 +0200
+
+geographiclib (1.50-1~exp1) experimental; urgency=medium
+
+  [ Ross Gammon ]
+  * Remove myself from uploaders
+
+  [ Bas Couwenberg ]
+  * New upstream release.
+  * Update copyright years for Charles Karney.
+  * Drop doxygen.patch, applied upstream. Refresh remaining patches.
+  * Rename library package for SONAME bump.
+  * Install Node.js module in /usr/share/nodejs.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Fri, 27 Sep 2019 08:13:03 +0200
+
+geographiclib (1.49-5) unstable; urgency=medium
+
+  * Bump Standards-Version to 4.4.0, no changes.
+  * Add Build-Depends-Package field to symbols file.
+  * Remove package name from lintian overrides.
+  * Update gbp.conf to use --source-only-changes by default.
+  * Drop Python 2 support.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Mon, 22 Jul 2019 09:56:36 +0200
+
+geographiclib (1.49-4) unstable; urgency=medium
+
+  * Drop autopkgtest to test installability.
+  * Add lintian override for testsuite-autopkgtest-missing.
+  * Strip trailing whitespace from changelog.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Tue, 31 Jul 2018 16:05:44 +0200
+
+geographiclib (1.49-3) unstable; urgency=medium
+
+  [ Francesco Paolo Lovergine ]
+  * Doxygen JQuery is not compatible with the standard one, so the embedded
+    version is now preserved.
+  * Now using treeview in doxygen doc for a better readability.
+  * Fixed Mathjax path for doxygen use.
+
+  [ Bas Couwenberg ]
+  * Bump Standards-Version to 4.1.5, no changes.
+  * Update copyright-format URL to use HTTPS.
+  * Update Vcs-* URLs for Salsa.
+  * Drop ancient X-Python-version field.
+  * Strip trailing whitespace from control & rules files.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Thu, 19 Jul 2018 16:19:38 +0200
+
+geographiclib (1.49-2) unstable; urgency=medium
+
+  * Add patch by Chris Lamb to make the build reproducible.
+    (closes: #878708)
+  * Strip trailing whitespace from changelog & control files.
+  * Drop obsolete dbg package.
+  * Mark libgeographic17 as Multi-Arch: same.
+  * Bump Standards-Version to 4.1.2, no changes.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Tue, 26 Dec 2017 19:39:16 +0100
+
+geographiclib (1.49-1) unstable; urgency=medium
+
+  * Update symbols for other architectures.
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sat, 07 Oct 2017 10:27:17 +0200
+
+geographiclib (1.49-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Change priority for libgeographic-dbg from extra to optional.
+  * Bump Standards-Version to 4.1.1, changes: priority.
+  * Use pkg-info.mk variables instead of dpkg-parsechangelog output.
+  * Add autopkgtest to test installability.
+  * Refresh patches.
+  * Add lintian overrides for privacy-breach-generic.
+  * Change node-geographiclib section to javascript.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Thu, 05 Oct 2017 14:05:40 +0200
+
+geographiclib (1.48-1) unstable; urgency=medium
+
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sun, 18 Jun 2017 10:38:27 +0200
+
+geographiclib (1.48-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update Homepage URL to geographiclib.sourceforge.io.
+  * Update geographiclib-datasets-download script to use HTTPS URL.
+  * Refresh patches.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Mon, 10 Apr 2017 00:49:34 +0200
+
+geographiclib (1.47-patch1-1~exp1) experimental; urgency=medium
+
+  * New upstream patch release.
+  * Drop pkgconfigdir.patch, applied upstream.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Thu, 16 Feb 2017 07:24:41 +0100
+
+geographiclib (1.47-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.8, no changes.
+  * Enable all hardening buildflags.
+  * Include examples in libgeographic-dev.
+  * Update copyright years for Charles Karney.
+  * Update repository URLs in upstream metadata to use HTTPS.
+  * Refresh patches.
+  * Add patch for pkg-config macros.
+  * Update symbols for amd64.
+  * Include pkg-config script in libgeographic-dev.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Wed, 15 Feb 2017 19:35:45 +0100
+
+geographiclib (1.46-2) unstable; urgency=medium
+
+  * Update symbols for other architectures.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sun, 21 Feb 2016 11:08:06 +0100
+
+geographiclib (1.46-1) unstable; urgency=medium
+
+  * Update symbols for other architectures.
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sat, 20 Feb 2016 20:37:54 +0100
+
+geographiclib (1.46-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update Vcs-Git URL to use HTTPS.
+  * Update copyright years for Charles Karney, BMW Car IT GmbH &
+    Free Software Foundation, Inc.
+  * Bump Standards-Version to 3.9.7, no changes.
+  * Drop manpage_lintian.patch, applied upstream.
+    Refresh remaining patches.
+  * Rename library package for SONAME bump,
+    drop SOVERSION from -dbg package name.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Fri, 19 Feb 2016 13:08:29 +0100
+
+geographiclib (1.45-2) unstable; urgency=medium
+
+  * Also build geographiclib for Python 3.
+    (closes: #805964)
+  * Enable parallel builds.
+  * Update Vcs-Browser URL to use HTTPS.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Fri, 04 Dec 2015 16:31:49 +0100
+
+geographiclib (1.45-1) unstable; urgency=medium
+
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sun, 11 Oct 2015 12:27:11 +0200
+
+geographiclib (1.45-1~exp1) experimental; urgency=medium
+
+  [ Ross Gammon ]
+  * New upstream release.
+  * Update copyright file.
+
+  [ Bas Couwenberg ]
+  * Add node-geographiclib package for Node.js module.
+  * Drop scripts from doc install, no longer included upstream.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Fri, 02 Oct 2015 14:27:09 +0200
+
+geographiclib (1.44-1) unstable; urgency=medium
+
+  * Update symbols for other architectures.
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Wed, 19 Aug 2015 11:25:32 +0200
+
+geographiclib (1.44-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update copyright file, update copyright years.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sun, 16 Aug 2015 11:10:53 +0200
+
+geographiclib (1.43-3) unstable; urgency=medium
+
+  * Update symbols for other architectures with GCC 5.
+    (closes: #791044)
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Tue, 04 Aug 2015 00:19:00 +0200
+
+geographiclib (1.43-3~exp1) experimental; urgency=medium
+
+  * Update symbols for amd64 with GCC 5.
+  * Update watch file, add version mangling, handle other tar extensions.
+  * Add upstream metadata.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Mon, 03 Aug 2015 15:18:14 +0200
+
+geographiclib (1.43-2) unstable; urgency=medium
+
+  [ Francesco Paolo Lovergine ]
+  * Upstream script geographiclib-get-geoids depends strictly on wget to work.
+
+  [ Bas Couwenberg ]
+  * Update description for python package.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sun, 26 Jul 2015 11:03:05 +0200
+
+geographiclib (1.43-1) unstable; urgency=medium
+
+  * Update symbols for other architectures.
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Thu, 04 Jun 2015 20:30:58 +0200
+
+geographiclib (1.43-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sat, 23 May 2015 15:05:02 +0200
+
+geographiclib (1.42-1) unstable; urgency=medium
+
+  * Update symbols for other architectures.
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Thu, 07 May 2015 00:01:25 +0200
+
+geographiclib (1.42-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Refresh patches.
+  * Drop unused lintian override for manpage-has-errors-from-man.
+  * Update MATLAB files removal for new paths.
+  * Update symbols for amd64.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Fri, 01 May 2015 12:58:44 +0200
+
+geographiclib (1.41-1) unstable; urgency=medium
+
+  * Move from experimental to unstable.
+
+ -- Bas Couwenberg <sebastic@debian.org>  Sun, 26 Apr 2015 21:42:06 +0200
+
+geographiclib (1.41-1~exp2) experimental; urgency=medium
+
+  * Update symbols for other architectures: arm64 armel armhf hurd-i386 i386
+    kfreebsd-amd64 kfreebsd-i386 m68k mips mipsel powerpc ppc64el s390x sparc
+  * Add Breaks/Replaces for files moved from geographiclib-tools to
+    geographiclib-doc. (closes: #782715)
+
+ -- Bas Couwenberg <sebastic@debian.org>  Fri, 17 Apr 2015 02:49:32 +0200
+
+geographiclib (1.41-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update my email to use @debian.org address.
+  * Use packaged jquery.js instead of Doxygen copy.
+  * Drop obsolete symlinks for duplicate files.
+  * Update symbols for amd64 (rebuild with GCC 5).
+  * Update copyright file, changes:
+    - Update copyright years
+    - Document license & copyright for ltmain.sh
+
+ -- Bas Couwenberg <sebastic@debian.org>  Fri, 13 Mar 2015 18:25:32 +0100
+
+geographiclib (1.40-1~exp1) experimental; urgency=medium
+
+  [ Ross Gammon ]
+  * Further tweak to symbols file
+  * Begin removing duplicate files
+  * Imported Upstream version 1.39
+  * Begin next geographiclib version
+  * Refresh patches
+  * Bump SONAME to 14 from 13
+  * Update symbols file
+  * Create -doc package as these are very large
+  * Remove duplicate files and link them instead
+  * Add patch to prevent remote access to CSS for html manuals
+
+  [ Bas Couwenberg ]
+  * Add myself to Uploaders.
+  * Update Vcs-Browser URL to use cgit instead of gitweb.
+  * New upstream release.
+  * Update copyright file, changes:
+    - Use separate license sections
+    - Use spaces instead of tabs for indenting
+    - Correct GPL-3+ license specifiction
+  * Use upstream version for symbols.
+  * Install NEWS file as upstream changelog.
+  * Use pkgkde-gensymbols & pkgkde-symbolshelper to handle C++ symbols.
+  * Fix unused substitution variable warnings:
+    - Add Pre-Depends: ${misc:Pre-Depends} for libgeographic14
+    - Remove ${shlibs:Depends} for libgeographic-dev & python-geographiclib
+  * Also remove .la files, not installed.
+  * Add lintian override for package-contains-empty-directory,
+    the tools look for data under /usr/share/GeographicLib/
+    but no data is installed by the package.
+  * Also remove MATLAB files, not installed.
+  * Add debug package for libgeographic.
+
+ -- Bas Couwenberg <sebastic@xs4all.nl>  Sun, 28 Dec 2014 20:16:55 +0100
+
+geographiclib (1.38-1~exp2) experimental; urgency=medium
+
+  * Apply fix from jessie branch (1.37-3) to master as well
+  * Update symbols from experimental buildd's to fix FTBFS on some arches
+
+ -- Ross Gammon <rossgammon@mail.dk>  Sat, 15 Nov 2014 20:45:07 +0100
+
+geographiclib (1.37-3) unstable; urgency=medium
+
+  * Add Conflicts/Replace to libgeographic-dev (Closes: #768216)
+
+ -- Ross Gammon <rossgammon@mail.dk>  Thu, 06 Nov 2014 18:25:05 +0100
+
+geographiclib (1.38-1~exp1) experimental; urgency=medium
+
+  * New upstream release
+  * Incorporate nmu
+  * Fix lintian error about debian version in symbols file
+  * Refresh patches
+  * Update copyright dates
+  * Update symbols for other ports
+  * Add gbp.conf file
+  * Update symbols file with new symbols
+  * Install new manuals for download scripts
+  * Patch new manpage makefile to escape hypens
+  * Add lintian override for manpage undefined macros
+
+ -- Ross Gammon <rossgammon@mail.dk>  Tue, 04 Nov 2014 21:46:34 +0100
+
+geographiclib (1.37-2.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Fix symbols file for mips64(el) and ppc64el (Closes: #766984).
+
+ -- YunQiang Su <syq@debian.org>  Mon, 03 Nov 2014 09:15:36 +0000
+
+geographiclib (1.37-2) unstable; urgency=medium
+
+  * Update symbols file to fix FTBFS on 32 bit arches (Closes: #762485)
+
+ -- Ross Gammon <rossgammon@mail.dk>  Mon, 29 Sep 2014 21:31:55 +0200
+
+geographiclib (1.37-1) unstable; urgency=medium
+
+  * Imported Upstream version 1.37
+  * Use dh-autoreconf to fix FTBFS on ppc64el.
+    Thanks to Logan Rosen (Closes: #735004)
+  * Fix lintian error with Short Description
+  * Remove duplicate license information
+  * Ignore quilt .pc files
+  * Drop datadir patch and create datadir path with debian/dirs file instead
+  * Add myself to uploaders and tidy control file
+  * Install RhumbSolve tool binary
+  * SONAME bump
+  * Install python files according to latest Python Library Style Guide
+  * Add myself to debian/copyright
+  * Remove dh_make comments from watch file to fix lintian informational
+  * Rename lib & dev packages to avoid lintian warning
+  * Resolved privacy breaches
+  * Correct datadir path in datasets download script
+  * Bump policy to 3.9.6. No changes required.
+  * Add autoconf-archive dependency
+
+ -- Ross Gammon <rossgammon@mail.dk>  Thu, 28 Aug 2014 22:16:20 +0200
+
+geographiclib (1.35-2) unstable; urgency=low
+
+  * Fixed README.Debian to document use of the new download scripts by
+    Charles K. instead of my previous scripts.
+  * Patch datadir updated to use the correct data path in geographic-get-*
+    scripts.
+
+ -- Francesco Paolo Lovergine <frankie@debian.org>  Sun, 16 Mar 2014 20:29:01 +0100
+
+geographiclib (1.35-1) unstable; urgency=low
+
+  * Sigh, license changed since 1.12 but it has never been annotated in
+    debian/copyright. Now changed to modern DEP5 format and all authors
+    and contributors also annotated. (closes: #741599)
+  * New upstream release with minor changes.
+
+ -- Francesco Paolo Lovergine <frankie@debian.org>  Sun, 16 Mar 2014 14:03:59 +0100
+
+geographiclib (1.34-1) unstable; urgency=low
+
+  * New upstram release. It now includes new programs to download data.
+  * Policy bumped to 3.9.5.
+  * Vcs-* fields moved to canonical form to make lintian happy.
+  * Now using modern debhelper instead of cdbs.
+  * Debhelper level set to 9.
+  * Patchset refreshed.
+
+ -- Francesco Paolo Lovergine <frankie@debian.org>  Wed, 12 Mar 2014 10:03:54 +0100
+
+geographiclib (1.21-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added python package with dh_python2 support.
+
+ -- Francesco Paolo Lovergine <frankie@debian.org>  Thu, 24 May 2012 16:19:52 +0200
+
+geographiclib (1.18-1) unstable; urgency=low
+
+  * New upstream release.
+  * Policy bumped to 3.9.3, no changes required.
+  * SONAME bumped to 9.
+
+ -- Francesco Paolo Lovergine <frankie@debian.org>  Fri, 09 Mar 2012 20:29:27 +0100
+
+geographiclib (1.8-2) unstable; urgency=low
+
+  * Fixed typo in changelog to make lintian happy.
+  * Added missing dependency from libgeographic5 in -dev package.
+    (closes: #624181)
+  * Policy bumped to 3.9.2, no changes.
+
+ -- Francesco Paolo Lovergine <frankie@debian.org>  Tue, 26 Apr 2011 16:50:10 +0200
+
+geographiclib (1.8-1) unstable; urgency=low
+
+  * New upstream release. Now manpages are installed for tools.
+  * Moved to git for maintainance, so changed Vcs-* fields.
+  * Changed to source format 3.0 and dropped quilt build-dep.
+  * Policy changed to 3.9.1 without changes.
+  * Now using level 8 for debhelper.
+  * API changes from 1 to 5, changed binary package names as result.
+  * Removed README.source.
+
+ -- Francesco Paolo Lovergine <frankie@debian.org>  Thu, 24 Feb 2011 18:06:44 +0100
+
+geographiclib (1.2-1) unstable; urgency=low
+
+  * New upstream release with a couple of bugs fixed in the geodesic routines.
+    Previous patches merged: longdouble and destdir.
+  * Reduced short descriptions in debian/control file to make lintian happy.
+
+ -- Francesco Paolo Lovergine <frankie@debian.org>  Wed, 26 May 2010 17:54:42 +0200
+
+geographiclib (1.1-2) unstable; urgency=low
+
+  * Added longdouble patch: fixed problems with unsupported long double
+    on some archs.  Thanks Nobuhiro Iwamatsu.
+    (closes: #573930)
+  * Added doxygen as build-dep.
+
+ -- Francesco Paolo Lovergine <frankie@debian.org>  Tue, 06 Apr 2010 12:46:55 +0200
+
+geographiclib (1.1-1) unstable; urgency=low
+
+  * Initial release.
+    (closes: #571788)
+  * A couple of problems fixed by quilt patches. Should go upstream.
+  * Introduced a support script to download geoid grids from SF.
+
+ -- Francesco Paolo Lovergine <frankie@debian.org>  Wed, 10 Mar 2010 15:36:44 +0100

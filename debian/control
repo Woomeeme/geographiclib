@@ -1,15 +1,80 @@
-Source: template-repository
-Section: unknown
+Source: geographiclib
+Maintainer: Debian GIS Project <pkg-grass-devel@lists.alioth.debian.org>
+Uploaders: Francesco Paolo Lovergine <frankie@debian.org>,
+           Bas Couwenberg <sebastic@debian.org>
+Section: science
 Priority: optional
-Maintainer: Tsic404 <liuheng@deepin.org>
-Build-Depends: debhelper (>= 11)
-Standards-Version: 4.1.3
-Homepage: https://github.com/deepin-community/template-repository
-#Vcs-Browser: https://salsa.debian.org/debian/deepin-community-template-repository
-#Vcs-Git: https://salsa.debian.org/debian/deepin-community-template-repository.git
+Build-Depends: autoconf-archive,
+               debhelper-compat (= 13),
+               doxygen,
+               pkg-kde-tools
+Standards-Version: 4.6.2
+Vcs-Browser: https://salsa.debian.org/debian-gis-team/geographiclib
+Vcs-Git: https://salsa.debian.org/debian-gis-team/geographiclib.git
+Homepage: https://geographiclib.sourceforge.io/
+Rules-Requires-Root: no
 
-Package: template-repository
+Package: geographiclib-tools
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         wget
+Recommends: bzip2
+Suggests: proj-bin,
+          geographiclib-doc
+Description: C++ library to solve some geodesic problems -- tools
+ GeographicLib is a small set of C++ classes for converting between
+ geographic, UTM, UPS, MGRS, geocentric, and local cartesian coordinates,
+ for geoid calculations, and for computing geodesic. It is a suitable
+ replacement for the core functionality provided by NGA Geotrans.
+ .
+ This package contains some core tools based on the GeographicLib library.
+
+Package: geographiclib-doc
+Architecture: all
+Section: doc
+Depends: libjs-mathjax,
+         ${misc:Depends}
+Breaks: geographiclib-tools (<< 1.40-1~exp1)
+Replaces: geographiclib-tools (<< 1.40-1~exp1)
+Description: C++ library to solve some geodesic problems -- documentation
+ GeographicLib is a small set of C++ classes for converting between
+ geographic, UTM, UPS, MGRS, geocentric, and local cartesian coordinates,
+ for geoid calculations, and for computing geodesic. It is a suitable
+ replacement for the core functionality provided by NGA Geotrans.
+ .
+ This package contains the documentation for the GeographicLib tools.
+
+Package: libgeographiclib24
+Architecture: any
+Multi-Arch: same
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Suggests: geographiclib-tools
+Description: C++ library to solve some geodesic problems -- library
+ GeographicLib is a small set of C++ classes for converting between
+ geographic, UTM, UPS, MGRS, geocentric, and local cartesian coordinates,
+ for geoid calculations, and for computing geodesic. It is a suitable
+ replacement for the core functionality provided by NGA Geotrans.
+ .
+ This package contains the GeographicLib shared library used at run-time
+ by applications.
+
+Package: libgeographiclib-dev
+Architecture: any
+Section: libdevel
+Breaks: libgeographic-dev (<< 2.0)
+Replaces: libgeographic-dev (<< 2.0)
+Depends: libgeographiclib24 (= ${binary:Version}),
+         ${misc:Depends}
+Suggests: geographiclib-doc
+Description: C++ library to solve some geodesic problems -- development files
+ GeographicLib is a small set of C++ classes for converting between
+ geographic, UTM, UPS, MGRS, geocentric, and local cartesian coordinates,
+ for geoid calculations, and for computing geodesic. It is a suitable
+ replacement for the core functionality provided by NGA Geotrans.
+ .
+ This package contains the files used to develop applications that use the
+ GeographicLib library.

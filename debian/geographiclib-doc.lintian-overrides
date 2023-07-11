@@ -1,0 +1,6 @@
+# wikimedia images are not considered a privacy breach
+privacy-breach-generic *https://upload.wikimedia.org/*
+
+# Cannot easily be fixed
+file-references-package-build-path *
+
